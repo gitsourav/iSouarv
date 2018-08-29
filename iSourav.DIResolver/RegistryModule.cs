@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace iSourav.DIResolver
 {
-    public class RegistryModule : Autofac.Module
+    public class RegistryModule : Module
     {
         public bool Param1 { get; set; }
 
